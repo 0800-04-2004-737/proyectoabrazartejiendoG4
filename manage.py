@@ -6,7 +6,8 @@ import sys
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'abrazartejiendo.settings.base') #si quieren conectarse a mysql usar 'abrazartejiendo.settings.local'
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE',
+                          'abrazartejiendo.settings.local')  # si quieren conectarse a mysql usar 'abrazartejiendo.settings.local'
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:

@@ -13,6 +13,7 @@ main {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  color :rgb(30, 30, 30);
 }
 hr {
   box-sizing: content-box;
@@ -186,6 +187,7 @@ h3 {
 }
 h1 {
   font-size: 3.8rem;
+
 }
 h2 {
   font-size: 3.4rem;
@@ -249,7 +251,7 @@ h4 {
   border: none;
 }
 .boton-verde:hover {
-  background-color: #619800;
+  background-color: #71b100;
   cursor: pointer;
 }
 .dark-mode {
@@ -263,7 +265,7 @@ h4 {
 .dark-mode h2,
 .dark-mode h3,
 .dark-mode h4 {
-  color: #e1e1e1;
+  color: rgb(29, 29, 29)
 }
 .dark-mode .anuncio,
 .dark-mode .resumen-propiedad {
@@ -279,12 +281,12 @@ h4 {
   filter: invert(100%);
 }
 .dark-mode .texto-nosotros blockquote {
-  color: #fff;
+  color: rgb(30, 30, 30);
 }
 .dark-mode .formulario label,
 .dark-mode .formulario legend,
 .dark-mode .formulario p {
-  color: #e1e1e1;
+  color: rgb(30, 30, 30);
 }
 .dark-mode .formulario input:not([type="submit"]),
 .dark-mode .formulario select,
@@ -293,38 +295,8 @@ h4 {
   border: 1px solid #333;
   color: #fff;
 }
-.no-webp .inicio {
-  background-image: url(../img/header.jpg);
-}
-.webp .inicio {
-  background-image: url(../img/header.webp);
-}
-.header {
-  background-color: #333;
-  padding: 1rem 0 3rem;
-}
-.header.inicio {
-  background-position: 50%;
-  background-size: cover;
-}
-@media (min-width: 768px) {
-  .header.inicio,
-  .header.inicio .contenido-header {
-    min-height: 70rem;
-  }
-}
-.contenido-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.contenido-header h1 {
-  text-align: left;
-  color: #fff;
-  font-weight: 700;
-  line-height: 2;
-  max-width: 60rem;
-}
+
+
 .footer {
   padding: 2.5rem 0;
   background-color: #333;
